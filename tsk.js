@@ -1,7 +1,7 @@
 //Given an array of random integers, 
 //move all the zeros in the array to the end of the array.
 
-let array=[1,2,0,1,0,0,3,6];
+let array=[1,2,0,1,0,0,3,6,0,0,183,68,0];
 function sArray(array){
     
     var newArray=[];
