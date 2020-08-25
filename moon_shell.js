@@ -1,8 +1,8 @@
-function numChars(str,char){
-    var counter=0;
-    for(var i=0;i<str.length;i++){
-        var element=str[i];
-        if(element==char){
+function numChars(s,c){
+    let counter=0;
+    for(let sc of s){
+        var element=sc;
+        if(element==c){
             counter++
         }
     }
