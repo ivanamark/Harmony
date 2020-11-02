@@ -1,4 +1,4 @@
-function  charactetJump(n,array) {
+function  characterJump(n,array) {
     for(var i=0;i<array.length;i++){
         for(var k=1;k<array.length;k++){
             if(i=n*k){
@@ -12,7 +12,7 @@ function  charactetJump(n,array) {
         }
     }
 }
-var result=charactetJump(3,[0,1,0,0,0,1,0])
+var result=characterJump(3,[0,1,0,0,0,1,0])
 console.log(result);
-var resultb=charactetJump(4,[0,1,1,0,1,0,0,0,0])
+var resultb=characterJump(4,[0,1,1,0,1,0,0,0,0])
 console.log(resultb);
