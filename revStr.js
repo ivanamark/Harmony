@@ -12,3 +12,21 @@ function reverseAString(str) {
     return newstr.join('');
 }
 console.log(reverseAString("Hello"));
+
+function reverseAString2(str2) {
+    var newstr2='';
+    for(var l=str2.length-1;l>=0;l--){
+        newstr2+=str2[l];
+    }
+    return newstr2;
+}
+console.log(reverseAString2("Hello"));
+
+function reverseAString3(str3) {
+    return str3.split('').reverse().join('')
+}
+console.log(reverseAString3("Hello"));
+
+(str3)=> str3.split('').reverse().join('')
+
+console.log(reverseAString3("Hello"));
