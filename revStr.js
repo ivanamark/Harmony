@@ -30,3 +30,14 @@ console.log(reverseAString3("Hello"));
 (str3)=> str3.split('').reverse().join('')
 
 console.log(reverseAString3("Hello"));
+function reverseAString(str) {
+    //  write code here.
+    let reversed = "";
+    
+    for(let i = 0; i < str.length; i++) {
+        reversed = str[i] + reversed;
+        
+    }
+    return reversed;
+}
+console.log(reverseAString("Hello"));
