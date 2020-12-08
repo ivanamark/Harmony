@@ -1,0 +1,50 @@
+body {
+    background-color: #AEB8FE;
+    display: flex;
+}
+
+.dice {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin:100px
+}
+
+.dot {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    background-color: black;
+    margin:15px;
+
+    
+}
+
+
+.button{
+    font-size: 20px;
+    padding: 5px 15px;
+    background: teal;
+    outline: none;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin-left: 100px;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.rot{
+    animation-name: shake;
+    animation-duration: 1s;
+    transition:all is ease;
+}
+@keyframes shake{
+    from{
+        transform:rotate(3600deg) scale(0.6)
+    }
+    to{
+        transform: rotate(8deg) scale(1.8);
+    }
+}
