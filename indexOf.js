@@ -17,3 +17,12 @@ function find2020(str){
 }
 var result=find2020('2220000202220020200')
 console.log(result)
+function find2020(str){
+    var myRegex=/2020/;
+    var result1=str.match(myRegex);
+    return result1.index;
+    
+}
+
+var result=find2020('2220000202220020200')
+console.log(result)
