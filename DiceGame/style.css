@@ -8,18 +8,18 @@ body {
     height: 90px;
     border-radius: 10px;
     background-color: #EFE5DC;
-    margin:100px
+    margin: auto;
+
+   
 }
 
 .dot {
     position: relative;
-    width: 10px;
-    height: 10px;
+    width: 20%;
+    height: 20%;
     border-radius: 15px;
-    background-color: black;
-    margin:15px;
-
-    
+    background-color:green;
+        
 }
 
 
@@ -48,3 +48,5 @@ body {
         transform: rotate(8deg) scale(1.8);
     }
 }
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                

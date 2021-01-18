@@ -49,7 +49,6 @@ function diceResult(dice){
                <div class="dot"> 
                    </div>
     
-
 <div class="dot"> 
                    </div> </div>`}else if(dice == 'four'){
          dot.innerHTML = `
@@ -60,7 +59,6 @@ function diceResult(dice){
                <div class="dot"> 
                    </div>
     
-
 <div class="dot"> 
                    </div> </div>`}else if(dice == 'five'){
          dot.innerHTML = `
@@ -72,7 +70,6 @@ function diceResult(dice){
                <div class="dot"> 
                    </div>
     
-
 <div class="dot"> 
                    </div> </div>`}else if(dice == 'six'){
          dot.innerHTML = `
@@ -84,11 +81,11 @@ function diceResult(dice){
                <div class="dot"> 
                    </div>
     
-
 <div class="dot"> 
                    </div> </div>`}
 
 };
+
 
 
 
