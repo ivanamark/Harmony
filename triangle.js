@@ -35,10 +35,10 @@ function isInTriangle(triangle,spot){
         }
         
 
-
-    if(((minX<=spot[0])&&(spot[0]<=(maxX+minX)/2)) && ((minY<=spot[1])&&(spot[1]<=(maxY+minY)/2))){
-       
         
+
+    if(((minX<=spot[0])&&(spot[1]+spot[0]<=maxY)) && ((minY<=spot[1])&&(Math.abs(spot[1]-spot[0])<=maxX))){
+       
         console.log(true) 
        
     } else{
@@ -46,6 +46,10 @@ function isInTriangle(triangle,spot){
     }
         }
         }
-    
+     //var result=isInTriangle([ [0,0], [0,3], [4,0] ], [3,2])
 
-var result=isInTriangle([ [0,0], [0,3], [4,0] ], [3,2])
+var result=isInTriangle([ [0,0], [0,3], [4,0] ], [2,1])
+//var result=isInTriangle([ [0,0], [0,9], [8,0] ], [4,4])
+//var result=isInTriangle([ [0,0], [0,9], [8,0] ], [7,1]) 
+//var result=isInTriangle([ [0,0], [0,9], [8,0] ], [2,9])
+//var result=isInTriangle([ [0,0], [0,6], [2,0] ], [1,3])
