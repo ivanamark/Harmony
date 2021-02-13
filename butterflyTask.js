@@ -22,11 +22,11 @@ longestNum('cassidy543is000always12091so232hungry')
   
     for(var j=0;j<ar.length;j++){
             var char=ar[j];
-            char=parseInt(char)
+            
             arr.push(char)
          }
          
-     var biggest=arr.reduce((a,b)=>a>b?a:b)
+     var biggest=arr.reduce((a,b)=>(a.length)>(b.length)?a:b)
      return biggest;         
        
  }
