@@ -19,7 +19,7 @@ function lonelyNumber(a,b,c) {
        
     }if(a==b && a!=c) {
          console.log(c);
-        return c
+        return c;
        
     }
      if(a==c && a!=b){
