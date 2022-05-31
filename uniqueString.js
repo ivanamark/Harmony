@@ -21,7 +21,6 @@ Example:
 > true*/
 
 function allUnique(str){
-   str.toLowerCase();
    for(let i=0;i<str.length;i++){
    
       for(let a=i+1;a<str.length;a++){
