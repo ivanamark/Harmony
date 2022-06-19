@@ -12,7 +12,7 @@ function longText(str,n){
     var newstr='';
     for(var char of str){
         char=char.toLowerCase();
-        if(/[aeion]/gi.test(char)){
+        if(/[aeion]/.test(char)){
            var nchar=char.repeat(n);
             newstr+=nchar;
         }else{
