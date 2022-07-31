@@ -33,7 +33,10 @@ function findIntersection(listA, listB) {
     const a=listA.findIndex(isIndex);
     const b=listB.findIndex(isIndex);
      
-    result.push(a,b)      
+    result.push(a,b)
+    if(a,b==-1){
+         result=null;
+     } 
     return result      
     
 }
