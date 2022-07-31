@@ -1,0 +1,40 @@
+/*This week’s question:
+Given two arrays A and B, return 
+the indices at which the two arrays intersect. 
+If the two arrays have no intersection at all, return null. 
+Extra credit: how would you change your code if they were 
+linked lists instead of arrays, if the input were the two 
+head nodes, and you returned the intersection node?
+
+Example:
+
+let listA = [1,4,5,6]
+let listB = [2,3,4,5,6]
+
+> findIntersection(listA, listB)
+> [1, 2]*/
+let listA = [1,4,5,6];
+let listB = [2,3,4,5,6];
+function findIntersection(listA, listB) {
+    var newarray=[];
+    var result=[];
+    for(var elementA of listA){
+       
+    for(var elementB of listB){
+             
+    if(elementA==elementB){
+       newarray.push(elementA)
+    }
+    }
+    }
+    var s=newarray[0];
+    const isIndex = (element) => element==s;
+
+    const a=listA.findIndex(isIndex);
+    const b=listB.findIndex(isIndex);
+     
+    result.push(a,b)      
+    return result      
+    
+}
+    findIntersection(listA, listB)
