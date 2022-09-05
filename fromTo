@@ -8,7 +8,7 @@ function* fromTo(x,y) {
   }
 
 }  
-let gen = fromTo(5,7)
+const gen = fromTo(5,7)
 gen.next()
 gen.next()
 gen.next()
