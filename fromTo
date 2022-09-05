@@ -1,0 +1,15 @@
+function* fromTo(x,y) {
+  for (let current = x; ; current += 1) {
+    yield current;
+      if(current>=y){
+          break;
+      }
+      
+  }
+
+}  
+let gen = fromTo(5,7)
+gen.next()
+gen.next()
+gen.next()
+//gen.next()
