@@ -5,8 +5,7 @@ function numBalanced(str) {
         if(char=='('){
         char=1;
         }else(char=-1)
-        console.log(str1+=char)
-    
+        str1+=char;
     } 
    const regex=/[-]/g;
     const reg=/[1]/g
